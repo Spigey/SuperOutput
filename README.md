@@ -16,7 +16,7 @@ SuperOutput is a library designed to make console output more visually appealing
 
 
 ## Installation
-- Download SuperOutput.cs from Release
+- Download SuperOutput.cs from <a href="https://github.com/localityyy/SuperOutput/releases/tag/superoutput" target="_black">Release</a>
 - Move SuperOutput.cs to your project (near Program.cs)
 
 # Example
