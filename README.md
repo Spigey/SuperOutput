@@ -23,7 +23,7 @@ SuperOutput is a library designed to make console output more visually appealing
 ```csharp
 var SuperOutput = new SuperOutput.Init();
 
-if (SuperOutput.IsReady()) {
+if (SuperOutput.IsWorking()) {
     SuperOutput.OutputTime(true, ConsoleColor.DarkGray);
     SuperOutput.StatusOutput("OK", ConsoleColor.Green, false, false);
     SuperOutput.ColorOutput(" Hello, World!", ConsoleColor.Green, true, false);
