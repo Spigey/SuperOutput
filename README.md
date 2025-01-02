@@ -30,6 +30,8 @@ SuperOutput is a library designed to make console output more visually appealing
 <h2>Example</h1>
 </div>
 
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
 ```csharp
 var SuperOutput = new SuperOutput.Init();
 
@@ -53,6 +55,8 @@ if (SuperOutput.IsWorking()) {
 <h2>ColorOutput</h2>
 </div>
 
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
 ```csharp
 SuperOutput.ColorOutput("Hello World!", userColor: ConsoleColor.Green, shouldWriteAtNewLine: true, centerTextOnlyConsoleApp: false);
 ```
@@ -61,6 +65,8 @@ SuperOutput.ColorOutput("Hello World!", userColor: ConsoleColor.Green, shouldWri
 <div align="center">
 <h2>StatusOutput</h2>
 </div>
+
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
 ```csharp
 SuperOutput.StatusOutput("OK", userColor: ConsoleColor.Green, shouldWriteAtNewLine: false);
@@ -73,6 +79,8 @@ SuperOutput.StatusOutput("FAIL", userColor: ConsoleColor.Red, shouldWriteAtNewLi
 <h2>OutputTime</h2>
 </div>
 
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
 ```csharp
 SuperOutput.OutputTime(withSeconds: true, userColor: ConsoleColor.Magenta, shouldWriteAtNewLine: false, centerTextOnlyConsoleApp: false);
 ```
@@ -81,6 +89,8 @@ SuperOutput.OutputTime(withSeconds: true, userColor: ConsoleColor.Magenta, shoul
 <div align="center">
 <h2>GetTime</h2>
 </div>
+
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
 ```csharp
 Console.WriteLine(SuperOutput.GetTime(withSeconds:true));
