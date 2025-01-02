@@ -33,10 +33,7 @@ if (SuperOutput.IsWorking()) {
     SuperOutput.AnimatedOutput(" Hi from SuperOutput", ConsoleColor.Magenta, 200, true);
 }
 ```
-
-**Output**:
-
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![image](https://github.com/user-attachments/assets/ac20a952-236c-4594-93b2-aac5762ec585)
+![image](https://github.com/user-attachments/assets/ac20a952-236c-4594-93b2-aac5762ec585)
 
 # License
 SuperOutput is licensed under the GNU Affero General Public License v3.0. See the LICENSE file for more details.
