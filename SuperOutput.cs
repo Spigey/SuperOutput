@@ -91,10 +91,5 @@ namespace SuperOutput
                 return false;
             }
         }
-
-        public bool IsReady()
-        {
-            return IsWorking();
-        }
     }
 }
