@@ -99,4 +99,4 @@ Console.WriteLine(SuperOutput.GetTime(withSeconds:true));
 
 
 # License
-SuperOutput is licensed under the GNU Affero General Public License v3.0. See the LICENSE file for more details.
+SuperOutput is licensed under the GNU Affero General Public License v3.0. See the <a href="https://github.com/localityyy/SuperOutput/blob/main/LICENSE" target="_black">LICENSE</a> file for more details.
