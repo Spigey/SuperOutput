@@ -8,7 +8,7 @@ SuperOutput is a library designed to make console output more visually appealing
 
 - **Colorful Output**: Print text in various colors to highlight important information.
 - **Text Centering**: Easily center text on the screen for better visibility and presentation.
-- **Animated Output**: Display text with animations, such as scrolling, flashing, or bouncing effects.
+- **Animated Output**: Display text with typing animation.
 - **Colored Status Indicators**: Display status messages (e.g., `[ OK ]`, `[ ERROR ]`) in different colors to quickly communicate the result.
 - **Colored Time Output**: Print the current time in a specific color to keep track of time-based events.
 - **Real-Time Time Retrieval**: Get the current time and display it in the desired format or color.
