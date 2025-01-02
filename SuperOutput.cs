@@ -65,7 +65,7 @@ namespace SuperOutput
             }
         }
 
-        private string GetTime(bool withSeconds)
+        public string GetTime(bool withSeconds)
         {
             if (withSeconds)
             {
