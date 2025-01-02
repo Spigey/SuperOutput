@@ -19,7 +19,7 @@ SuperOutput is a library designed to make console output more visually appealing
 - Download SuperOutput.cs from <a href="https://github.com/localityyy/SuperOutput/releases/tag/superoutput" target="_black">Release</a>
 - Move SuperOutput.cs to your project (near Program.cs)
 
-# Example
+## Example
 ```csharp
 var SuperOutput = new SuperOutput.Init();
 
@@ -34,6 +34,41 @@ if (SuperOutput.IsWorking()) {
 }
 ```
 ![image](https://github.com/user-attachments/assets/ac20a952-236c-4594-93b2-aac5762ec585)
+
+# Features Showcase
+
+## ColorOutput
+```csharp
+SuperOutput.ColorOutput("Hello World!", userColor: ConsoleColor.Green, shouldWriteAtNewLine: true, centerTextOnlyConsoleApp: false);
+```
+![image](https://github.com/user-attachments/assets/a3b4d45a-7715-42a6-8b7d-e8d37c276cc2)
+
+## ColorOutput
+```csharp
+SuperOutput.ColorOutput("Hello World!", userColor: ConsoleColor.Green, shouldWriteAtNewLine: true, centerTextOnlyConsoleApp: false);
+```
+![image](https://github.com/user-attachments/assets/a3b4d45a-7715-42a6-8b7d-e8d37c276cc2)
+
+## StatusOutput
+```csharp
+SuperOutput.StatusOutput("OK", userColor: ConsoleColor.Green, shouldWriteAtNewLine: false);
+Console.WriteLine();
+SuperOutput.StatusOutput("FAIL", userColor: ConsoleColor.Red, shouldWriteAtNewLine: false);
+```
+![image](https://github.com/user-attachments/assets/72198e8b-b252-4e60-9dcd-ea700d854889)
+
+## OutputTime
+```csharp
+SuperOutput.OutputTime(withSeconds: true, userColor: ConsoleColor.Magenta, shouldWriteAtNewLine: false, centerTextOnlyConsoleApp: false);
+```
+![image](https://github.com/user-attachments/assets/da9f728f-4351-44f9-ad32-d8669d274dfc)
+
+## GetTime
+```csharp
+Console.WriteLine(SuperOutput.GetTime(withSeconds:true));
+```
+![image](https://github.com/user-attachments/assets/8d994976-81a7-48a6-a7d5-5cafd654327c)
+
 
 # License
 SuperOutput is licensed under the GNU Affero General Public License v3.0. See the LICENSE file for more details.
